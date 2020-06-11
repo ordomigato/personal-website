@@ -21,6 +21,7 @@ const Hero = () => {
     `)
 
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' })
+    const isRetina = useMediaQuery({ minResolution: '2dppx' })
 
     return (
         <section className="hero-section">
@@ -38,7 +39,7 @@ const Hero = () => {
                 <div className="hero-card">
                     <div className="hero-image">
                         <Parallax
-                            speed={ isTabletOrMobile ? 0 : -10 }
+                            speed={ isTabletOrMobile || isRetina ? 0 : -10 }
                         >
                             <div className="hero-image__overlay"></div>
                             <Img
