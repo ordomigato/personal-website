@@ -10,7 +10,7 @@ const Contact = () => {
                     <h2>Have a project in mind?</h2>
                     <p>or just want to say hi?</p>
                 </header>
-                <form method="POST" name="contact" data-netlify="true">
+                <form method="POST" name="contact" data-netlify="true" data-netlify-recaptcha="true">
                     <div className="name-email_field">
                         <label>
                             <span>Name</span>
@@ -26,6 +26,7 @@ const Contact = () => {
                         <textarea name="message" id="message" placeholder="Message..." rows="3" />
                     </label>
                     <br />
+                    <div data-netlify-recaptcha="true"></div>
                     <button type="submit">Send</button>
                 </form>
             </div>
