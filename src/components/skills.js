@@ -18,7 +18,7 @@ const Skills = () => {
                         </header>
                         <div className="skill-body">
                             <p className="skill-overview">
-                                With a background in Psychology and Design, I enjoy combining my skillsets to enhance my creations
+                                I aim to create modern, user-friendly, and brand cohesive designs.
                             </p>
                             <div className="skill-subsection">
                                 <p className="skill-subsection_title">Toolset</p>
@@ -26,6 +26,12 @@ const Skills = () => {
                                     <li>Adobe Creative Suite</li>
                                     <li>Figma</li>
                                     <li>Pen & Paper</li>
+                                </ul>
+                            </div>
+                            <div className="skill-subsection">
+                                <p className="skill-subsection_title">CSS Frameworks & Technologies</p>
+                                <ul className="skill-subsection_items">
+                                    <p>Bootstrap | Tailwind | SASS</p>
                                 </ul>
                             </div>
                         </div>
@@ -37,7 +43,7 @@ const Skills = () => {
                         </header>
                         <div className="skill-body">
                             <p className="skill-overview">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                I'm commited to creating quality websites that provide solutions, increase conversion, and reduce costs.
                             </p>
                             <div className="skill-subsection">
                                 <p className="skill-subsection_title">Languages</p>
@@ -48,7 +54,7 @@ const Skills = () => {
                             <div className="skill-subsection">
                                 <p className="skill-subsection_title">Frameworks / Libraries</p>
                                 <div className="skill-subsection_items">
-                                    <p>React | Gatsby | Vue | jQuery | Bootstrap | Rellax</p>
+                                    <p>React | Gatsby | Vue | Nuxt | Axios | jQuery | Rellax</p>
                                 </div>
                             </div>
                             <div className="skill-subsection">
@@ -60,12 +66,12 @@ const Skills = () => {
                             <div className="skill-subsection">
                                 <p className="skill-subsection_title">Development Tools</p>
                                 <div className="skill-subsection_items">
-                                    <p>Git & Github | Trello | NPM | Gulp | SASS</p>
+                                    <p>Git & Github | Trello | NPM | Gulp</p>
                                 </div>
                             </div>
                         </div>
                     </article>
-                    <article className="uiux_skills skill-wrapper">
+                    <article className="collateral-skills skill-wrapper">
                         <header>
                             <Design />
                             <h2 className="skill-title">Branding & Collateral</h2>
