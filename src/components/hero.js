@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Parallax from 'react-rellax'
-import { useMediaQuery } from 'react-responsive'
 
 import Img from 'gatsby-image'
 
@@ -20,9 +19,6 @@ const Hero = () => {
         }
     `)
 
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' })
-    const isRetina = useMediaQuery({ minResolution: '2dppx' })
-
     return (
         <section className="hero-section">
             <div className="hero-container">
@@ -39,7 +35,7 @@ const Hero = () => {
                 <div className="hero-card">
                     <div className="hero-image">
                         <Parallax
-                            speed={ isTabletOrMobile || isRetina ? 0 : -10 }
+                            speed={ window.innerWidth > 768 ? 0 : -10 }
                         >
                             <div className="hero-image__overlay"></div>
                             <Img

@@ -39,8 +39,8 @@ const Projects = () => {
                     return (
                         <article className="project" key={edge.node.frontmatter.title}>
                             <div className="overlay">
-                                <a href={edge.node.frontmatter.website} target="_blank">View Site</a>
-                                <a href={edge.node.frontmatter.code} target="_blank">&lt; See Code &gt;</a>
+                                <a href={edge.node.frontmatter.website} target="_blank" rel="noopener noreferrer">View Site</a>
+                                <a href={edge.node.frontmatter.code} target="_blank" rel="noopener noreferrer">&lt; See Code &gt;</a>
                             </div>
                             <Img
                                 fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid}
