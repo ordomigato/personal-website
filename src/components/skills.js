@@ -34,6 +34,12 @@ const Skills = () => {
                                     <p>Bootstrap | Tailwind | SASS</p>
                                 </ul>
                             </div>
+                            <div className="skill-subsection">
+                                <p className="skill-subsection_title">Soft Skills</p>
+                                <ul className="skill-subsection_items">
+                                    <p>BEM</p>
+                                </ul>
+                            </div>
                         </div>
                     </article>
                     <article className="web-dev_skills skill-wrapper">

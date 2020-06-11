@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Parallax from 'react-rellax'
 
@@ -35,7 +35,7 @@ const Hero = () => {
                 <div className="hero-card">
                     <div className="hero-image">
                         <Parallax
-                            speed={ window.innerWidth > 768 ? 0 : -10 }
+                            speed={ -10 }
                         >
                             <div className="hero-image__overlay"></div>
                             <Img
