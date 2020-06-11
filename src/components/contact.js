@@ -10,7 +10,7 @@ const Contact = () => {
                     <h2>Have a project in mind?</h2>
                     <p>or just want to say hi?</p>
                 </header>
-                <form method="post" name="contact" netlify >
+                <form method="POST" name="contact" data-netlify="true">
                     <div className="name-email_field">
                         <label>
                             <span>Name</span>
