@@ -1,0 +1,76 @@
+.skills-section {
+    background-color: #F2F2F6;
+    padding: 0 1rem;
+    .skills-container {
+        background-color: white;
+        -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+        transform: translateY(-50px);
+        display: flex;
+        flex-direction: column;
+        .skill-wrapper {
+            padding: 3rem 1rem;
+            -webkit-box-shadow: 0px 0 1px 0px rgba(0,0,0,0.1);
+            -moz-box-shadow: 0px 0 1px 0px rgba(0,0,0,0.1);
+            box-shadow: 0px 0 1px 0px rgba(0,0,0,0.1);
+            header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                svg {
+                    height: 35px;
+                    width: auto;
+                    fill: var(--secondary-color);
+                }
+                .skill-title {
+                    font-size: 1rem;
+                    text-align: center;
+                }
+            }
+            .skill-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .skill-overview {
+                    text-align: center;
+                    line-height: 1.5em;
+                    font-size: 0.8rem;
+                }
+                .skill-subsection {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    &_title {
+                        font-weight: 700;
+                        text-align: center;
+                        line-height: 1.5em;
+                        font-size: 0.8rem;
+                    }
+                    &_items {
+                        line-height: 1.5em;
+                        font-size: 0.8rem;
+                        text-align: center;
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        li, p {
+                            line-height: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .skills-section {
+        .skills-container {
+            flex-direction: row;
+            .skill-wrapper {
+                padding: 3rem 2rem;
+            }
+        }
+    }
+}
