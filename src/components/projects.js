@@ -37,7 +37,7 @@ const Projects = () => {
 
                 {data.allMarkdownRemark.edges.map( edge => {
                     return (
-                        <article className="project">
+                        <article className="project" key={edge.node.frontmatter.title}>
                             <div className="overlay">
                                 <a href={edge.node.frontmatter.website} target="_blank">View Site</a>
                                 <a href={edge.node.frontmatter.code} target="_blank">&lt; See Code &gt;</a>

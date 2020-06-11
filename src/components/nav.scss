@@ -109,8 +109,9 @@
     }
     .nav-desktop-container {
         visibility: hidden;
-        width: 0;
-        height: 0;
+        display: none;
+        width: 0px;
+        height: 0px;
     }
     .nav-items {
         display: flex;
