@@ -66,7 +66,7 @@ const Skills = () => {
                             <div className="skill-subsection">
                                 <p className="skill-subsection_title">Database Knowledge</p>
                                 <div className="skill-subsection_items">
-                                    <p>MySQL | MongoDB | Firebase | Contentful | WordPress | JSON | GraphQL</p>
+                                    <p>Firebase | Contentful | WordPress | JSON | GraphQL</p>
                                 </div>
                             </div>
                             <div className="skill-subsection">

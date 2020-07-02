@@ -26,7 +26,7 @@ const Hero = () => {
                     <p className="introduction">
                         <span>Hi,</span><br/>
                         <span className="my-name">I'm Jeremy</span><br/>
-                        <span>A Root Beer Enthusiast.</span>
+                        <span>A Sprouting Developer</span>
                     </p>
                     <p className="intro-caption">
                         Front-end Developer | Designer | Freelancer
