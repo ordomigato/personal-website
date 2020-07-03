@@ -11,8 +11,8 @@ const Contact = () => {
                     <h2>Have a project in mind?</h2>
                     <p>or just want to say hi?</p>
                 </header>
-                <form method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
-                    <input type="hidden" name="form-name" value="contact" />
+                <form method="POST" name="Contact Form" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="Contact Form" />
                     <div className="name-email_field">
                         <label>
                             <span>Name</span>
