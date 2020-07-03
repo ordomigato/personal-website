@@ -11,6 +11,7 @@ const Contact = () => {
                     <p>or just want to say hi?</p>
                 </header>
                 <form method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" enctype="application/x-www-form-urlencoded">
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="name-email_field">
                         <label>
                             <span>Name</span>
