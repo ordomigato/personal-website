@@ -10,7 +10,7 @@ const Contact = () => {
                     <h2>Have a project in mind?</h2>
                     <p>or just want to say hi?</p>
                 </header>
-                <form method="POST" name="contact" data-netlify="true" data-netlify-recaptcha="true">
+                <form method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" enctype="application/x-www-form-urlencoded">
                     <div className="name-email_field">
                         <label>
                             <span>Name</span>
