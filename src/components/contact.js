@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 
 import './contact.scss'
 
 const Contact = () => {
+
     return (
         <section id="contact-form" className="contact_section">
             <div className="contact-container">
@@ -10,7 +11,7 @@ const Contact = () => {
                     <h2>Have a project in mind?</h2>
                     <p>or just want to say hi?</p>
                 </header>
-                <form method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" enctype="application/x-www-form-urlencoded">
+                <form method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="name-email_field">
                         <label>
