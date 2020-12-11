@@ -17,13 +17,34 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `projects`,
-        path: `${__dirname}/src/projects/`,
+        path: `${__dirname}/src/projects`,
       },
     },
-    `gatsby-transformer-remark`,
+    `gatsby-remark-images`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+          require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -34,7 +55,7 @@ module.exports = {
           },
           {
             family: `Open Sans`,
-            variants: [`300`, `400`, `700`]
+            variants: [`100`, `300`, `400`, `700`],
           },
         ],
       },
@@ -43,9 +64,12 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets/
-        }
-      }
+          include: /assets/,
+        },
+      },
     },
+    `gatsby-plugin-modal-routing`,
+    `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-postcss`,
   ],
 }

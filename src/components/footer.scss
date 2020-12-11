@@ -1,0 +1,22 @@
+.footer_section {
+  background-color: var(--main-color);
+  padding: 20px;
+  margin: 0;
+  p,
+  .social-media {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0 0 1rem 0;
+    line-height: 2rem;
+  }
+  .social-media {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
