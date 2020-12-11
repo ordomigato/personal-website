@@ -46,21 +46,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Raleway`,
-            variants: [`400`, `600`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`100`, `300`, `400`, `700`],
-          },
-        ],
-      },
-    },
-    {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {

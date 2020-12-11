@@ -5,6 +5,7 @@ import Github from "../assets/svg/github-brands.svg"
 import { Link } from "gatsby"
 import gsap, { Back } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { graphql } from "gatsby"
 
 import "./projects.scss"
 
