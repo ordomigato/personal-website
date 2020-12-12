@@ -60,7 +60,10 @@ export default function Template({ data }) {
         )}
       </div>
       <div>
-        <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+        <Img
+          fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+          alt={`${post.frontmatter.title} featured image`}
+        />
       </div>
       <div
         className="project-article"

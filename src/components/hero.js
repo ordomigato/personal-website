@@ -23,13 +23,13 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-container">
         <div className="hero-text container w-100">
-          <p className="introduction">
+          <h1 className="introduction">
             <span>Hi,</span>
             <br />
             <span className="my-name">I'm Jeremy</span>
             <br />
             <span>A Full-Stack Developer</span>
-          </p>
+          </h1>
           <p className="intro-caption">Front-end | Back-end | Wordpress</p>
         </div>
         <div className="hero-card">

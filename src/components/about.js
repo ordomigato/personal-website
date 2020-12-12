@@ -7,7 +7,7 @@ const About = () => {
     <section className="about-section">
       <div className="about-container">
         <p>
-          After recieving my B.A. in Psychology and working in sales for the
+          After receiving my B.A. in Psychology and working in sales for the
           past few years, I've spent my days continuously learning new skills in
           hopes that I may provide people a service like no other. Unlike my
           previous jobs, web development allows me to flex both the right

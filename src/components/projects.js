@@ -81,6 +81,7 @@ const Projects = () => {
                   edge.node.frontmatter.featuredImage.childImageSharp.fluid
                 }
                 style={{ position: "absolute" }}
+                alt={`${edge.node.frontmatter.title} featured image`}
               />
               <header className="project-header">
                 <h3 className="project-title">{edge.node.frontmatter.title}</h3>
