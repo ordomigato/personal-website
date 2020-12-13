@@ -18,7 +18,7 @@ const IndexPage = () => (
       <meta charSet="utf-8" />
       <meta
         name="description"
-        content="Professional Toronto-based Web/app Developer. "
+        content="Professional Toronto-based Web/App Developer. "
       />
       <title lang="en">Jeremy Gervais | Web Developer</title>
       <link rel="canonical" href="https://jeremygervais.ca/" />
