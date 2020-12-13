@@ -1,4 +1,5 @@
 import React from "react"
+import resume from "../files/Jeremy Gervais - Resume.pdf"
 
 import "./footer.scss"
 
@@ -36,6 +37,9 @@ const Footer = () => {
           github
         </a>
       </section>
+      <p>
+        <a href={resume}>Download Resume Here</a>
+      </p>
       <p>Website Designed by Me</p>
       <p>
         Icons made by{" "}

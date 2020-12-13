@@ -97,7 +97,7 @@ const Skills = () => {
               <div className="skill-subsection">
                 <p className="skill-subsection_title">Languages</p>
                 <div className="skill-subsection_items">
-                  <p>HTML | CSS | JavaScript | PHP | JSON | GraphQL</p>
+                  <p>HTML | CSS | JavaScript | JSON | GraphQL</p>
                 </div>
               </div>
               <div className="skill-subsection">
