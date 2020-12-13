@@ -31,8 +31,8 @@ The client is growing rapidly and was looking for ways in which they may improve
 
 </p>
 
-<div class="bg-green-50 p-10 mb-8 shadow-md rounded">
-<p class="notice">
+<div class="notice">
+<p>
 The initial version of the app (currently live) works perfectly fine, however, a newer version is in the works with some much-needed enhancements that should be implemented by the end of December pending approval. The overall technologies used are pretty much the same except for the addition of Sequelize as the ORM. Features such as resident/visitor login is being added, as well as some UI/UX enhancements.
 </p>
 </div>

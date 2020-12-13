@@ -53,7 +53,7 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-modal-routing`,
+    // `gatsby-plugin-modal-routing`,
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-postcss`,
   ],
