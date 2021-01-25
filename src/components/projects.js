@@ -65,19 +65,22 @@ const Projects = () => {
               key={edge.node.frontmatter.title}
             >
               <div className="overlay">
-                <a
-                  href={edge.node.frontmatter.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View Site
-                </a>
+                {edge.node.frontmatter.website && (
+                  <a
+                    href={edge.node.frontmatter.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Site
+                  </a>
+                )}
                 <Link to={edge.node.frontmatter.path} state={{ modal: true }}>
                   Case Study
                 </Link>
               </div>
               <Img
                 fluid={
+                  edge.node.frontmatter.featuredImage &&
                   edge.node.frontmatter.featuredImage.childImageSharp.fluid
                 }
                 style={{ position: "absolute" }}
