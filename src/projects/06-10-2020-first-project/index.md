@@ -44,10 +44,8 @@ The design was meant to be relatively simple with tiles representing each game a
 
 ## Takeaways
 
-<ul class="list-disc ml-5">
-<li>Vuex helped me understand many of the concepts I failed to grasp when learning Redux.</li>
-<li>Firebase is a great tool, however it has its own weaknesses/limitations that need to be considered.</li>
-<li>Apparently having firebase’s usage screen open counts towards the reads &#128579;.</li>
-<li>It's okay to keep state up to date from the frontend in order to reduce database queries.</li>
-<li>Guard clauses can simplify many functions.</li>
-</ul>
+- Vuex helped me understand many of the concepts I failed to grasp when learning Redux.
+- Firebase is a great tool, however it has its own weaknesses/limitations that need to be considered.
+- Apparently having firebase’s usage screen open counts towards the reads &#128579;.
+- It's okay to keep state up to date from the frontend in order to reduce database queries.
+- Guard clauses can simplify many functions.
